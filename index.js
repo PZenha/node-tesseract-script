@@ -1,7 +1,7 @@
 const { createWorker } = require('tesseract.js');
 
 const worker = createWorker();
-console.log("ola")
+console.log("adeus")
 (async () => {
   await worker.load();
   await worker.loadLanguage('por');
